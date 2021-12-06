@@ -447,3 +447,4 @@ var View = defineClass(
 );
 
 module.exports = View;
+

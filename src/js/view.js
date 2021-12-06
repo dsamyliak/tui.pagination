@@ -435,13 +435,13 @@ var View = defineClass(
      */
     update: function(viewData) {
       this._empty();
-      this._appendFirstButton(viewData);
       this._appendPrevButton(viewData);
+      this._appendFirstButton(viewData);
       this._appendPrevMoreButton(viewData);
       this._appendPages(viewData);
       this._appendNextMoreButton(viewData);
-      this._appendNextButton(viewData);
       this._appendLastButton(viewData);
+      this._appendNextButton(viewData);     
     }
   }
 );
